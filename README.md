@@ -270,16 +270,10 @@ This project is licensed under the terms specified in the `LICENSE` file.
 - [ ] Advanced analytics dashboard
 - [ ] API endpoints for third-party integration
 
-## 📞 Support
-
-For issues, questions, or contributions:
-- Create an issue in the GitHub repository
-- Contact the development team
-- Check documentation in the `docs/` folder (if available)
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub]([https://github.com/Rohit8024])
+- **Rohit Kumar** - [https://github.com/Rohit8024]
 
 ## 🙏 Acknowledgments
 
