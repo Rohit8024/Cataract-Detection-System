@@ -20,10 +20,10 @@ app.secret_key = "key"
 
 # MySQL connection configuration
 conn = mysql.connector.connect(
-    host="localhost",  # or your MySQL server
-    user="root",
-    password="root",
-    database="user_management"  # The name of your MySQL database
+    host="127.0.0.1",  # or your MySQL server
+    user="root",  
+    password="Rohit@#123",
+    database="DB"  # The name of your MySQL database
 )
 cursor = conn.cursor()
 
@@ -220,6 +220,7 @@ def login():
             if bcrypt.checkpw(password.encode('utf-8'), stored_password.encode('utf-8')):
                       logging.info(f"Loggin successfull ",stored_name)
             else:
+             
                 logging.info(f"Invalid password ",stored_name)
                 flash("Invalid email or password.")
                 return redirect(url_for("login"))
@@ -323,11 +324,13 @@ def predict():
             print("Model loaded successfully.")
 
         prediction = model.predict(custom_image)
+        print("Prediction:", prediction)
+
 
         prediction_class = np.argmax(prediction, axis=1)
 
         # Print prediction result
-        # print("Predicted Class:", prediction_class)
+        print("Predicted Class:", prediction_class)
         if prediction_class == 0:
             result ="Cataract: Not Present"
         elif prediction_class == 1:
