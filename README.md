@@ -249,31 +249,10 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the terms specified in the `LICENSE` file.
-
-## 🐛 Known Issues
-
-- Large model file (47.8 MB) may require stable internet for cloning
-- Image processing may take a few seconds depending on system specifications
-- Ensure proper image format (JPG, JPEG, PNG) for best results
-
-## 🔮 Future Enhancements
-
-- [ ] Add support for batch image processing
-- [ ] Implement result history tracking
-- [ ] Add export functionality for medical reports
-- [ ] Integrate with hospital management systems
-- [ ] Mobile application development
-- [ ] Multi-language support
-- [ ] Advanced analytics dashboard
-- [ ] API endpoints for third-party integration
-
-
 ## 👥 Authors
 
 - **Rohit Kumar** - [https://github.com/Rohit8024]
+- **Rohit Kumar** - [https://github.com/RanjeetKumbhar01]
 
 ## 🙏 Acknowledgments
 
