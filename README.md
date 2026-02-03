@@ -252,7 +252,7 @@ Contributions are welcome! Please follow these steps:
 ## 👥 Authors
 
 - **Rohit Kumar** - [https://github.com/Rohit8024]
-- **Rohit Kumar** - [https://github.com/RanjeetKumbhar01]
+- **Ranjeet Kumbhar** - [https://github.com/RanjeetKumbhar01]
 
 ## 🙏 Acknowledgments
 
