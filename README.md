@@ -1,17 +1,17 @@
-# Cataract Prediction System
+# Cataract Detection System
 
 ![Eye Detection](static/eye.png)
 
 ## 🔍 Overview
 
-The **Cataract Prediction System** is a deep learning-powered web application designed to detect and classify cataracts from eye images. This system uses an EfficientNetB0 model trained on eye fundus images to provide accurate predictions for cataract detection, helping healthcare professionals make informed decisions.
+The **Cataract Detection System** is a deep learning-powered web application designed to detect and classify cataracts from eye images. This system uses an EfficientNetB0 model trained on eye fundus images to provide accurate Detection for cataract detection, helping healthcare professionals make informed decisions.
 
 ## ✨ Features
 
-- **AI-Powered Detection**: Utilizes EfficientNetB0 deep learning model for accurate cataract prediction
+- **AI-Powered Detection**: Utilizes EfficientNetB0 deep learning model for accurate cataract Detection
 - **User Authentication**: Separate registration and login for patients and medical staff
 - **Image Upload**: Easy-to-use interface for uploading eye images
-- **Real-time Predictions**: Instant analysis and classification results
+- **Real-time Detections**: Instant analysis and classification results
 - **Dashboard Interface**: Clean and intuitive dashboard for viewing results
 - **Responsive Design**: Works seamlessly across different devices
 
@@ -40,7 +40,7 @@ The **Cataract Prediction System** is a deep learning-powered web application de
 ## 📁 Project Structure
 
 ```
-Cataract-prediction-system/
+Cataract-Detection-system/
 │
 ├── .vscode/                    # VS Code configuration
 ├── model/                      # Trained model directory
@@ -84,8 +84,8 @@ Cataract-prediction-system/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/Cataract-prediction-system.git
-cd Cataract-prediction-system
+git clone https://github.com/yourusername/Cataract-Detection-system.git
+cd Cataract-Detection-system
 ```
 
 2. **Create a virtual environment**
@@ -158,12 +158,12 @@ python app.py
    - Access the dashboard
 
 3. **Upload Image**
-   - Navigate to the prediction section
+   - Navigate to the Detection section
    - Upload an eye fundus image (JPG, JPEG, PNG)
    - Submit for analysis
 
 4. **View Results**
-   - See prediction results on the dashboard
+   - See Detection results on the dashboard
    - View confidence scores
    - Download or save results
 
@@ -226,12 +226,12 @@ The `uploads/` folder contains example images:
 
 4. **Dashboard** (`dashboard.html`)
    - Upload interface
-   - Prediction results
+   - Detection results
    - User profile management
 
 ## 🧪 Testing
 
-Run the demo script to test model predictions:
+Run the demo script to test model Detections:
 
 ```bash
 python demo.py
@@ -273,7 +273,7 @@ Contributions are welcome! Please follow these steps:
 ### Upload Interface
 ![Upload Example](uploads/download.jpg)
 
-### Prediction Results
+### Detection Results
 ![Fundus Analysis](uploads/image_2.jpeg)
 
 ### Detection Example
